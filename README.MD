@@ -35,6 +35,13 @@ mvn clean test
 
 ## schema
 
+* category
+* item
+* item_stock
+* user
+* user_order
+* user_review
+
 ```
 
 ```
