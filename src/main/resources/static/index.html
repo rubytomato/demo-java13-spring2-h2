@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" href="css/base.css">
+  <title>Welcome</title>
+</head>
+<body>
+<div id="app">
+  <h1>Welcome</h1>
+  <div>
+    <h2>ER</h2>
+    <div>
+      <h3>tables</h3>
+      <table>
+        <thead>
+        <tr>
+          <th>name</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>category</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>item</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>item_stock</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>user</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>user_order</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>user_review</td>
+          <td></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div>
+    <h2>H2</h2>
+    <p>
+      <a href="http://localhost:8080/h2-console">console</a>
+    </p>
+    <code>
+      <p>memory</p>
+      <pre>
+        jdbc:h2:mem:testdb;DB_CLOSE_DELAY=FALSE;DB_CLOSE_ON_EXIT=FALSE;
+      </pre>
+    </code>
+    <code>
+      <p>file</p>
+      <pre>
+        jdbc:h2:file:./target/h2/testdb;DB_CLOSE_DELAY=FALSE;DB_CLOSE_ON_EXIT=FALSE;
+      </pre>
+    </code>
+  </div>
+</div>
+</body>
+</html>
