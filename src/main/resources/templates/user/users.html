@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Users</title>
+</head>
+<body>
+<div id="app">
+  <div>
+    <h2>user list</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Prefecture</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="user : ${users}" th:object="${user}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{name}"></td>
+        <td th:text="*{genderType}"></td>
+        <td th:text="*{prefectureType}"></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
