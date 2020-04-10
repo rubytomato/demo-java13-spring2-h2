@@ -3,7 +3,7 @@
 Development environment
 
 * OpenJDK 13.0.2
-* Spring Boot 2.2.5
+* Spring Boot 2.2.6
 * H2
 * Maven 3.6.3
 
